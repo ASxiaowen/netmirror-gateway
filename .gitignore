@@ -1,0 +1,30 @@
+# Secrets / credentials (never commit)
+nm_config.json
+.admin_pass
+users.txt
+admin.key
+panel.key
+*.key
+*.pem
+*.env
+
+# Large binaries
+*.tar.gz
+*.tar
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+*.exit.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
